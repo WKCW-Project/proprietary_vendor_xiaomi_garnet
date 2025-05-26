@@ -1131,7 +1131,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libVkLayer_ADRENO_qprofiler.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/hw/sound_trigger.primary.parrot.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.parrot.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
@@ -1200,14 +1199,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libeai_fixed_32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeai_fixed_32.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libhta_hexagon_runtime_qnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhta_hexagon_runtime_qnn.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libkcl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkcl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkernelmanager.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/liblistensoundmodel2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2vendor.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
@@ -1406,8 +1403,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/sensors.ultrasoundproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ultrasoundproximity.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@2.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.mwqem@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.data.connectionfactory-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connectionfactory-V1-ndk_platform.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.data.dataactivity-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dataactivity-V1-ndk_platform.so \
