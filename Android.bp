@@ -15953,7 +15953,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libgrpc++_unsecure",
+    name: "libgrpc++_unsecure_prebuilt",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15961,7 +15961,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libgrpc++_unsecure.so",
+                "proprietary/vendor/lib64/libgrpc++_unsecure_prebuilt.so",
             ],
             shared_libs: [
                 "liblog",
