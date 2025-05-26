@@ -9894,7 +9894,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "vendor.qti.hardware.qccvndhal@1.0",
+                "vendor.qti.hardware.qccvndhal@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -20783,8 +20783,8 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libfmq",
                 "libhidlbase",
-                "vendor.qti.hardware.qccsyshal@1.0",
-                "vendor.qti.hardware.qccsyshal@1.1",
+                "vendor.qti.hardware.qccsyshal@1.0_vendor",
+                "vendor.qti.hardware.qccsyshal@1.1_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -21894,8 +21894,8 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libfmq",
                 "libhidlbase",
-                "vendor.qti.hardware.qccsyshal@1.0",
-                "vendor.qti.hardware.qccsyshal@1.1",
+                "vendor.qti.hardware.qccsyshal@1.0_vendor",
+                "vendor.qti.hardware.qccsyshal@1.1_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -28920,7 +28920,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.qccsyshal@1.0",
+    name: "vendor.qti.hardware.qccsyshal@1.0_vendor",
+    stem: "vendor.qti.hardware.qccsyshal@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -28948,7 +28949,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.qccsyshal@1.1",
+    name: "vendor.qti.hardware.qccsyshal@1.1_vendor",
+    stem: "vendor.qti.hardware.qccsyshal@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -28959,7 +28961,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so",
             ],
             shared_libs: [
-                "vendor.qti.hardware.qccsyshal@1.0",
+                "vendor.qti.hardware.qccsyshal@1.0_vendor",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -28993,7 +28995,7 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "libcutils",
                 "liblog",
-                "vendor.qti.hardware.qccvndhal@1.0",
+                "vendor.qti.hardware.qccvndhal@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -29007,7 +29009,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.qccvndhal@1.0",
+    name: "vendor.qti.hardware.qccvndhal@1.0_vendor",
+    stem: "vendor.qti.hardware.qccvndhal@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -36891,11 +36894,11 @@ cc_prebuilt_binary {
                 "libnl",
                 "libfmq",
                 "libhidlbase",
-                "vendor.qti.hardware.qccsyshal@1.1",
+                "vendor.qti.hardware.qccsyshal@1.1_vendor",
                 "libz",
                 "libbinder",
                 "libbase",
-                "vendor.qti.hardware.qccvndhal@1.0",
+                "vendor.qti.hardware.qccvndhal@1.0_vendor",
                 "vendor.qti.hardware.qccvndhal@1.0-halimpl",
                 "libc++",
                 "libc",
