@@ -32079,6 +32079,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdmmsrc_system.so",
             ],
             shared_libs: [
+                "libgui_shim",
                 "libbinder",
                 "libmmosal",
                 "liblog",
@@ -32121,6 +32122,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdnative.so",
             ],
             shared_libs: [
+                "libinput_shim",
                 "libandroid_runtime",
                 "libui",
                 "libinput",
