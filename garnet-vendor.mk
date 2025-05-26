@@ -9,10 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
     vendor/xiaomi/garnet/proprietary/odm/etc/camera/camerascene.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerascene.json \
     vendor/xiaomi/garnet/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
-    vendor/xiaomi/garnet/proprietary/odm/lib/hw/fingerprint.fpc_fod.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.fpc_fod.default.so \
-    vendor/xiaomi/garnet/proprietary/odm/lib/hw/fingerprint.goodix_fod.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_fod.default.so \
-    vendor/xiaomi/garnet/proprietary/odm/lib/libgf_hal.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal.so \
-    vendor/xiaomi/garnet/proprietary/odm/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so \
     vendor/xiaomi/garnet/proprietary/odm/lib64/hw/fingerprint.fpc_fod.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.fpc_fod.default.so \
     vendor/xiaomi/garnet/proprietary/odm/lib64/hw/fingerprint.goodix_fod.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_fod.default.so \
     vendor/xiaomi/garnet/proprietary/odm/lib64/libgf_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal.so \
