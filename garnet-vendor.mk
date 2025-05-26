@@ -1153,33 +1153,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQTEEConnector_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_listener.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnChrometraceProfilingReader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnChrometraceProfilingReader.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnCpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnCpu.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDsp.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDspNetRunExtensions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDspNetRunExtensions.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDspV65CalculatorStub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDspV65CalculatorStub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDspV65Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDspV65Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDspV65StubInternal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDspV65StubInternal.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDspV66CalculatorStub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDspV66CalculatorStub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDspV66Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDspV66Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDspV66StubInternal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDspV66StubInternal.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnGpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnGpu.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnGpuNetRunExtensions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnGpuNetRunExtensions.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnGpuProfilingReader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnGpuProfilingReader.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHta.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtaNetRunExtensions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtaNetRunExtensions.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtp.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpNetRunExtensions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpNetRunExtensions.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpPrepare.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpPrepare.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpProfilingReader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpProfilingReader.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpV68CalculatorStub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpV68CalculatorStub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpV68Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpV68Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpV69CalculatorStub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpV69CalculatorStub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpV69Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpV69Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpV73CalculatorStub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpV73CalculatorStub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnHtpV73Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpV73Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnSaver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnSaver.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnSystem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnSystem.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQtiRilLoadable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQtiRilLoadable.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libTouchInputVM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTouchInputVM.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libTrustedInput.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedInput.so \
@@ -1195,7 +1168,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libhta_hexagon_runtime_qnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhta_hexagon_runtime_qnn.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libkcl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkcl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkernelmanager.so \
