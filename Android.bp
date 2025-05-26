@@ -3,6 +3,8 @@
 //
 
 soong_namespace {
+    imports: [
+    ],
 }
 
 cc_prebuilt_library_shared {
@@ -9364,7 +9366,7 @@ cc_prebuilt_library_shared {
                 "libcamximageformatutils",
                 "libcamxstatscore",
                 "libcamxswispiqmodule",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libqmi_cci",
                 "libqmi_common_so",
                 "libqmi_encdec",
@@ -15861,7 +15863,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libgnss.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libsns_direct_channel_stub",
                 "libadsprpc",
                 "libutils",
@@ -20309,7 +20311,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.iop@2.0",
                 "vendor.qti.hardware.servicetracker@1.0",
                 "vendor.qti.hardware.servicetracker@1.1",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libc++",
                 "libc",
                 "libm",
@@ -21295,7 +21297,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.radio@1.6",
                 "android.hardware.radio.deprecated@1.0",
                 "libqcrilNrQtiMutex",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libvndksupport",
                 "libbase",
                 "libz",
@@ -22606,7 +22608,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqshcamera.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libsnsapi",
                 "libc++",
                 "libc",
@@ -24032,7 +24034,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libsnsapi.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libcutils",
                 "libutils",
                 "libqmi_common_so",
@@ -24062,7 +24064,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libsnsdiaglog.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "liblog",
                 "libdiag",
                 "libsensorslog",
@@ -24177,7 +24179,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libssc.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "liblog",
                 "libsensorslog",
                 "libcutils",
@@ -24236,7 +24238,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libssccalapi@2.0.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "liblog",
                 "libsnsapi",
                 "libsensorslog",
@@ -25354,7 +25356,7 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libwfdhdcpcp",
                 "libc++",
-                "libclang_rt.ubsan_standalone-aarch64-android",
+                "libclang_rt.ubsan_standalone",
                 "libc",
                 "libm",
                 "libdl",
@@ -25920,7 +25922,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhidlmemory",
                 "liblog",
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libutils",
                 "libc++",
                 "libc",
@@ -26297,7 +26299,7 @@ cc_prebuilt_library_shared {
                 "libcrypto",
                 "libhidlbase",
                 "liblog",
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libstagefright_foundation",
                 "libutils",
                 "libc++",
@@ -26687,7 +26689,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libsns_direct_channel_stub",
                 "libadsprpc",
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "liblog",
                 "libsnsapi",
                 "libssc",
@@ -26726,7 +26728,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/sensors.touch.detect.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -36879,8 +36881,8 @@ cc_prebuilt_binary {
                 "libcutils",
                 "liblog",
                 "libutils",
-                "libprotobuf-cpp-full-3.9.1",
-                "libgrpc++_unsecure",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
+                "libgrpc++_unsecure_prebuilt",
                 "libqcc_file_agent",
                 "libqmi_cci",
                 "libqmiservices",
@@ -37386,7 +37388,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/sensors-qesdk",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "liblog",
                 "libdiag",
                 "libsnsapi",
@@ -37420,7 +37422,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/sensors.qti",
             ],
             shared_libs: [
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "liblog",
                 "libdiag",
                 "libssc",
