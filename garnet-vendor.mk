@@ -1121,76 +1121,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/garnet/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.0-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_ov16a1q_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_ov16a1q_front_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_s5k3p9sp04_front_iiii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_s5k3p9sp04_front_iiii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_ofilm_s5khp3_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_ofilm_s5khp3_wide_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_imx355_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_imx355_ultra_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_ov02b10_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_ov02b10_macro_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_ov16a1q_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_ov16a1q_front_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_s5k3p9sp04_front_iii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_s5k3p9sp04_front_iii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.sensormodule.garnet_sunny_s5khp3_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.garnet_sunny_s5khp3_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_aac_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_aac_ov64b40_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_s5k3p9sp04_front_iiii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_s5k3p9sp04_front_iiii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_imx355_ultra_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_imx355_ultra_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_imx355_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_imx355_ultra_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_s5k3p9sp04_front_iii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_s5k3p9sp04_front_iii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aec.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.aecxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aecxcore.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.af.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afd.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.asd.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awb.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.cnndriver.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.cnndriver.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.haf.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.localhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.localhistogram.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlib.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibsony.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibwrapper.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.statsgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.statsgenerator.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.tracker.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.2-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.3-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.4-ext-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.4-ext-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.4-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.5-ext-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.5-ext-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.5-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.6-ext-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.6-ext-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.6-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.device@3.7-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.7-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.4-external.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.4-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.4-legacy.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.provider@2.5-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.5-external.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.provider@2.5-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.5-legacy.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.provider@2.6-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.6-legacy.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/camx.provider@2.7-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.7-legacy.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/com.qti.settings.clarence.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.settings.clarence.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/com.qti.settings.netrani.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.settings.netrani.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/com.qti.stats.common.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.stats.common.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.0.so \
@@ -1221,7 +1151,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.soter@1.0-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/lib-imscommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscommon.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
@@ -1233,7 +1162,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libAF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAF.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
@@ -1245,7 +1173,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libMiVDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiVDR.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPlatformValidatorShared.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQTEEConnector_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_listener.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
@@ -1278,14 +1205,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnSaver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnSaver.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnSystem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnSystem.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQtiRilLoadable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQtiRilLoadable.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libSnpeDspV65Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeDspV65Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libSnpeDspV66Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeDspV66Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libSnpeHta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHta.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libSnpeHtpPrepare.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpPrepare.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libSnpeHtpV68Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpV68Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libSnpeHtpV69Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpV69Stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libSnpeHtpV73Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpV73Stub.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libTouchInputVM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTouchInputVM.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libTrustedInput.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedInput.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libTrustedInputTZ.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedInputTZ.so \
@@ -1300,23 +1219,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libbacklight-calib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbacklight-calib.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatching.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacertclient.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcalculator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalculator.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcalculator_htp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalculator_htp.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxcommonutils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfacialfeatures.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxhwnodecontext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxhwnodecontext.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxifestriping.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxqsatalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxqsatalgo.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxsettingsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxsettingsmanager.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw_remote_api.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
@@ -1355,9 +1258,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libhdrdynamic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrdynamic.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrdynamicootf.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libhme.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhme.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libhta_hexagon_runtime_qnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhta_hexagon_runtime_qnn.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libhta_hexagon_runtime_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhta_hexagon_runtime_snpe.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_client_api.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
@@ -1393,20 +1294,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmemutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemutils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmfido.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfido.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_ai_vision.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmialgo_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_utils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libminksocket_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket_vendor.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay@1.1.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bestats.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_cac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_lscv35.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lscv35.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_lut2d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lut2d.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr_t4.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdpc.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmt.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnative-api.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
@@ -1424,7 +1316,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnlnetmgr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib/libops.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libpal_net_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpal_net_if.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libpasrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpasrutils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
@@ -1494,7 +1385,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqrtrclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtrclient.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqshcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqshcamera.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqti-iopd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd.so \
@@ -1504,7 +1394,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqtikeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymint.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libquickcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquickcamera.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/librcmask.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcmask.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libril-db.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-db.so \
@@ -1545,12 +1434,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynergy_loc_api.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynx.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libsys_info_cache.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsys_info_cache.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libtestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtestutils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadutils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libtida@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtida@1.2.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
@@ -1563,7 +1450,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libvmmem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvmmem.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeybox.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libxiaomi_qcril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxiaomi_qcril.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libxmi_slow_motion_mein.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxmi_slow_motion_mein.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol_uri_v3.so \
@@ -1745,7 +1631,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0-impl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mfidoca@1.0.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.quickcamera@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.1.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.2.so \
