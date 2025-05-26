@@ -1147,17 +1147,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libEvrcSwCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEvrcSwCodec.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQTEEConnector_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_listener.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libQcelp13SwCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQcelp13SwCodec.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnChrometraceProfilingReader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnChrometraceProfilingReader.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnCpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnCpu.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libQnnDsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnDsp.so \
@@ -1196,7 +1191,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
@@ -1242,28 +1236,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libpowercallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercallback.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercore.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libpsmoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpsmoptfeature.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2audio_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_base.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2audio_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_basecodec.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2audio_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_core.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2audio_hooks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_hooks.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2audio_hwaudiocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_hwaudiocodec.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2audio_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_platform.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2audio_swaudiocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_swaudiocodec.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2audio_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_utils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2colorconvertfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2colorconvertfilter.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqc2filter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2filter.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_base.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_basecodec.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_core.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_filterbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_filterbase.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_hooks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_hooks.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_mockfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_mockfilter.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_mockqc2filter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_mockqc2filter.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_platform.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_utils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libqcodec2_v4l2codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_v4l2codec.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqcrilDataModule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilDataModule.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqcrilNr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libqcrilNrFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrFramework.so \
@@ -1330,7 +1304,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libultrasound_notify.so:$(TARGET_COPY_OUT_VENDOR)/lib/libultrasound_notify.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libvendorscenariopoweroptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvendorscenariopoweroptfeature.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libvideooptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideooptfeature.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/libvideotxr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideotxr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libvmmem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvmmem.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeybox.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/libxiaomi_qcril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxiaomi_qcril.so \
@@ -1342,7 +1315,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/qcril_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcril_client.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/qcrild_libqcrilnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_libqcrilnr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/qcrild_libqcrilnrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_libqcrilnrutils.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/qti.video.utils.videobufferlayout.so:$(TARGET_COPY_OUT_VENDOR)/lib/qti.video.utils.videobufferlayout.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/qtiPeripheralMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiPeripheralMgr.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/qtiril-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiril-utils.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/qtiwakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiwakelock.so \
