@@ -1913,7 +1913,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.mfidoca@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
     vendor.xiaomi.hardware.tidaservice@1.0 \
     vendor.xiaomi.hardware.tidaservice@1.1 \
@@ -2017,7 +2016,6 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix_fod.default \
     libgf_hal \
     librfs_warp \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     CACertService \
     CneApp \
     IWlanService \
