@@ -1515,7 +1515,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.data.connectionfactory-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connectionfactory-V1-ndk_platform.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.data.dataactivity-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dataactivity-V1-ndk_platform.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.data.ka-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.ka-V1-ndk_platform.so \
-    vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/lib/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.mwqemadapter@1.0.so \
